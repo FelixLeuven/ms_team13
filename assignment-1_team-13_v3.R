@@ -17,9 +17,9 @@ agdata$pray    <- 8 - agdata$pray
 
 #select the 16 items, so that no other columns enter the analysis
 items = agdata[, c("ppltrst", "pplfair", "pplhlp",
-                   "freehms", "hmsfmlsh_r", "hmsacld",
+                   "freehms", "hmsfmlsh", "hmsacld",
                    "imbgeco", "imueclt", "imwbcnt",
-                   "rlgdgr", "rlgatnd_r", "pray_r",
+                   "rlgdgr", "rlgatnd", "pray",
                    "eqwrkbg", "eqpolbg", "eqmgmbg", "eqpaybg")]
 
 #check number of missing values per item 
